@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-29T15:00:06.903Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3423413400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.MyStepdefs.setup() in file:/C:/thabet/WorkspaceIntellij/Bouletcorp/target/test-classes/"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "SearchWidgetsSuccessful",
+        "description": "",
+        "id": "search-widgets;searchwidgetssuccessful",
+        "after": [
+          {
+            "result": {
+              "duration": 879479000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.MyStepdefs.quitBrowser() in file:/C:/thabet/WorkspaceIntellij/Bouletcorp/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39800081200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "utilisateur accede au site Bouletcorp",
+            "match": {
+              "location": "steps.MyStepdefs.utilisateur_accede_au_site_Bouletcorp() in file:/C:/thabet/WorkspaceIntellij/Bouletcorp/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122947600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "utilisateur clique sur Aleatoire",
+            "match": {
+              "location": "steps.MyStepdefs.utilisateur_clique_sur_Aleatoire() in file:/C:/thabet/WorkspaceIntellij/Bouletcorp/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45100808200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "utilisateur verifie que la page a change",
+            "match": {
+              "location": "steps.MyStepdefs.utilisateur_verifie_que_la_page_a_change() in file:/C:/thabet/WorkspaceIntellij/Bouletcorp/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80971300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "utilisateur verifie que les widgets facebook, twitter et tumblr sont bien affiches",
+            "match": {
+              "location": "steps.MyStepdefs.utilisateur_verifie_que_les_widgets_facebook_twitter_et_tumblr_sont_bien_affiches() in file:/C:/thabet/WorkspaceIntellij/Bouletcorp/target/test-classes/"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Search Widgets",
+    "description": "  In order to user connect to internet\n  As a user enter a valid url\n  User want to verify url will change if he click aleatoire and verify the widgets facebook, twitter et tumblr are exist or no",
+    "id": "search-widgets",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/VerifyElements.feature",
+    "tags": []
+  }
+]
